@@ -1,3 +1,28 @@
+
+# E-Commerce Frontend App
+
+This is a simple frontend application for a minimalistic e-commerce store built with React and TypeScript. The app fetches product data from Airtable and provides users with the ability to browse and place orders.
+
+## Features
+
+- Browse and view a list of products
+- Add products to the cart and manage quantities
+- Complete a checkout form with user details
+- Order summary at the end of the process (no backend processing)
+
+## Limitations
+
+- Frontend-only application: The app does not have a backend for processing or storing order details. Orders can be placed, but there is no server-side logic or database integration to persist the order data.
+- No real payments: This app is for demonstration purposes only and does not include real payment processing.
+
+## How to run the project
+
+- Clone the repository
+- Install dependencies using npm install
+- Add the required Airtable API key in the .env file as VITE_AIRTABLE_API_KEY
+- Run the project locally with npm run dev
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
